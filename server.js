@@ -7,7 +7,7 @@ const cTable = require("console.table");
 // need express to have a conversation with the user on the CLI
 const inquirer = require("inquirer");
 // initialize global variables
-const init = require("./Develop/js/initialization");
+const init = require("./intialization");
 
 // set up connection to db
 const connection = mysql.createConnection({
