@@ -1,4 +1,5 @@
-// to access database
+// access database, create path, allow console.log-in, need express, global variable.
+// to access database 
 const mysql = require("mysql");
 // need path for filename paths
 const path = require("path");
