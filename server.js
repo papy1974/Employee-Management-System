@@ -82,7 +82,7 @@ function getEmployeesByDept(department) {
   // get all employees
   getAllEmployees();
 
-  // delete all employees except those in the given department
+  // erase all employees except those in the given department
   query = "DELETE FROM allemployees WHERE dept <> ?  OR dept IS NULL;";
   connection.query(query, department, function(err, res) {
     if (err) console.log(err);
