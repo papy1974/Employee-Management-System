@@ -1,4 +1,4 @@
-// initial global variables
+// initial and define global variables
 
 let continueApp = true;   // continuing or exiting the application
 let depts = [];           // list of department names
