@@ -46,7 +46,7 @@ function getAllEmployees() {
   // get data from joining employees & role tables
   // initially, we have the manager id, which later gets updated to the manager's name
 
-  // set up the query
+  // set up the query(all)
   query =
     "INSERT INTO allemployees (id, first, last, title, dept, salary, manager)";
   query +=
