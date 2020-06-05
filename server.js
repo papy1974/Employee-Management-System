@@ -119,6 +119,7 @@ function displayTable() {
 // Deletes an record from the employees table, given the employee name.
 // If it's a manager, the manager id is set to null for all the employees under him.
 //   - this is done in the database with ON DELETE SET NULL (not explicitly done here)
+// create function deleteEmployee
 function deleteEmployee(emp_name) {
   // delete given employees
   query = "DELETE FROM employees WHERE CONCAT(first_name, ' ', last_name) = ?;";
