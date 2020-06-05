@@ -103,7 +103,7 @@ function getEmployeesByMgr(mgr) {
 } // end of getemployeesbymgr
 
 // Displays the working table allemployees to the user
-//  Previously called functions have built this table with the information the user requested.
+//  Previously called functions displayTable have built this table with the information the user requested.
 function displayTable() {
   // select table data to send to CLI
   let query = "SELECT * FROM allemployees;";
