@@ -33,7 +33,7 @@ connection.connect(function(err) {
 //
 // Don't display the table in this function because 
 //   the calling function may modify it before displaying it to the user.
-//
+// create function get AllEmployess.
 function getAllEmployees() {
   // clear out working (scrap) table to load it with current data
   // set up the query
