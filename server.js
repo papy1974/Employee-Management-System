@@ -77,6 +77,7 @@ function getAllEmployees() {
 
 // gets the table of all the employees in the given department to display to the user.
 // the calling function is responsible for displaying the table
+// create function getEmployeeByDept.
 function getEmployeesByDept(department) {
   // get all employees
   getAllEmployees();
