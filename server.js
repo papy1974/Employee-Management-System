@@ -90,7 +90,7 @@ function getEmployeesByDept(department) {
 } // end of getemployeesbydept
 
 // gets the table of all the employees with a given manager to display to the user.
-// the calling function is responsible for displaying the table
+// the calling function getEmployeesByM is responsible for displaying the table
 function getEmployeesByMgr(mgr) {
   // get all employees
   getAllEmployees();
