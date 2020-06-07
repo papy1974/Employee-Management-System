@@ -134,6 +134,7 @@ function deleteEmployee(emp_name) {
 
 
 // Updates an employees job title, given the employee's name and the new title name
+// make function updateEmployeerole 
 function updateEmployeeRole(employee_name, new_role) {
   // update an employee's role
   // get the new role_id first from the roles table, using the role name (job title) to retrieve it.
