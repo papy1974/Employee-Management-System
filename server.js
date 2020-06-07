@@ -146,7 +146,7 @@ function updateEmployeeRole(employee_name, new_role) {
     // set up the update query statement
     query =
       "UPDATE employees SET role_id = ? WHERE CONCAT(first_name, ' ', last_name) = ?;";
-    // execute the update statement
+    // execute the update query statement
     connection.query(query, [selectRes[0].id, employee_name], function(updateErr, updateRes) {
       if (updateErr) console.log(updateErr);
       findEmployees();   // to update init.employeeList
