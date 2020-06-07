@@ -169,7 +169,7 @@ function updateEmployeeMgr(employee_name, new_mgr) {
   connection.query(query, new_mgr, function(selectErr, selectRes) {
     if (selectErr) console.log(selectErr);
 
-    // then do the update to change the manager id for the given employee to the manager id just retrieved
+    // then do the update to change the manager id for the given employee to the manager id just found.
     query = "UPDATE employees SET manager_id = ? WHERE CONCAT(first_name, ' ', last_name) = ?;";
     connection.query(query, [selectRes[0].id, employee_name], function(updateErr, updateRes) {
       if (updateErr) console.log(updateErr);
