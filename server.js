@@ -441,7 +441,7 @@ async function findRoles() {
   });
 } // end of findRoles
 
-// returns an array with two string elements, the first name and the last name
+// returns an array with two string elements, the first name and the last name by using insertNewEmployee
 async function insertNewEmployee(results) {
   // get manager first & last name, first
 
