@@ -160,6 +160,7 @@ function updateEmployeeRole(employee_name, new_role) {
 } // end of updateemployeerole
 
 // update an employee's manager given the employee's name and the new manager's name
+// start updateEmployee function.
 function updateEmployeeMgr(employee_name, new_mgr) {
 
   // get the new manager_id from the employees table (using the manager's full name)
