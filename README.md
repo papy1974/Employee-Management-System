@@ -1,5 +1,9 @@
 Title
 
+Languages and Tools used:
+
+MySql with Inquirer, NodeJs, Javascript , Git 
+
 #Employee-Management-System
 
 Installation
